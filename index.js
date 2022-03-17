@@ -1,3 +1,5 @@
+import { v4 as uuidv4 } from "uuid";
+
 function init() {
   // add a queue event here
   _ =
@@ -17,6 +19,10 @@ function init() {
 
 function test() {
   console.log(_.sortBy([3, 1, 2]));
+}
+
+function test2() {
+  console.log(uuidv4());
 }
 
 let tlibrary = {
